@@ -1,0 +1,6 @@
+package: github.com/jim-minter/azureblobupload
+import:
+- package: github.com/Azure/azure-sdk-for-go
+  version: v15.2.0
+  subpackages:
+  - storage
